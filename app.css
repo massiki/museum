@@ -1,0 +1,42 @@
+body {
+  background: #FFE7E7;
+  font-family: "Exo 2", sans-serif;
+}
+
+#mynav {
+  background-color: #CAA6A6;
+}
+
+#mynav .nav-link {
+  color: white;
+}
+
+#mynav .nav-link:hover {
+  color: #944E63;
+  text-decoration: underline;
+}
+
+.title-head  {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.desc {
+  font-size: 1rem;
+}
+
+@media (max-width: 992px) { 
+  .title-head  {
+    font-size: 1.5rem;
+  }
+
+  .desc {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 768px) { 
+  .desc {
+    font-size: small;
+  }
+}
